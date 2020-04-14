@@ -12,7 +12,7 @@ done = False
 
 yobi = ["月","火","水","木","金","土","日"]
 channelId = 699552951504601162
-token = 'Njk5NTQ4NjA4MTA1ODA3OTMy.XpWAbQ.F9w2p46xiWapuRU5iD8WEKMgRHQ'
+token = 'Njk5NTQ4NjA4MTA1ODA3OTMy.XpW6oA.sVbLMST8hB5n_6EaKLzg9igTGio'
 
 workStart = '22:45'
 breakStart = '22:50'
