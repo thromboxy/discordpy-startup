@@ -3,6 +3,7 @@ from discord.ext import tasks
 from datetime import datetime
 import jpholiday
 import locale
+import os
 
 locale.setlocale(locale.LC_CTYPE, "Japanese_Japan.932")
 
@@ -11,8 +12,8 @@ channel = None
 done = False
 
 yobi = ["月","火","水","木","金","土","日"]
-channelId = os.environ['DISCORD_CHANNEL_ID']
-token = os.environ['DISCORD_BOT_TOKEN']
+channelId = os.environ.get('DISCORD_CHANNEL_ID')
+token = os.environ.get('DISCORD_BOT_TOKEN')
 
 workStart = '22:45'
 breakStart = '22:50'
